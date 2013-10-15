@@ -1,0 +1,26 @@
+{
+  "name": "ttlfn",
+  "version": "0.1.0",
+  "description": "Wraps a function with a time limit. If the function is not called by the specified time it will never call the original function and optionally call a notifier function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coen-hyde/ttlfn"
+  },
+  "keywords": [
+    "function",
+    "limit"
+  ],
+  "author": "Coen Hyde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coen-hyde/ttlfn/issues"
+  },
+  "devDependencies": {
+    "should": "~2.0.1",
+    "mocha": "~1.13.0"
+  }
+}
