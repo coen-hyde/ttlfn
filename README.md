@@ -1,4 +1,4 @@
-ttlFn
+ttlfn
 ======
 
 Wraps a function with a time limit. If the function is not called by the specified time it will never call the original function and optionally call a notifier function.
